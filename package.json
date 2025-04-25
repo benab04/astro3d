@@ -1,7 +1,7 @@
 {
   "name": "celestial-bodies",
   "version": "1.0.0",
-  "description": "An NPM package that provides an image inside a div",
+  "description": "A lightweight Three.js-based package to render customizable 3D textured spheres (like planets or moons) using image maps. Easily integrate and display celestial bodies in your web apps with full support for geometry customization, lighting, and orbit controls. Perfect for educational, scientific, or visually immersive projects.",
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -16,7 +16,22 @@
     "moon",
     "mesh",
     "scene",
-    "render"
+    "render",
+    "three.js",
+    "3d sphere",
+    "texture mapping",
+    "moon",
+    "planet",
+    "space visualization",
+    "orbit controls",
+    "webgl",
+    "earth model",
+    "threejs sphere",
+    "3d object viewer",
+    "interactive 3d",
+    "celestial bodies",
+    "moon sphere",
+    "three.js planet"
   ],
   "author": "Ben Abraham Biju",
   "license": "MIT",
