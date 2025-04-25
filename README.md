@@ -1,4 +1,4 @@
-# 🌍 celestial-bodies
+# 🌍 astro3d
 
 **Create realistic 3D spheres of planets, moons, or any celestial body — without reinventing the rocket.**
 
@@ -18,9 +18,9 @@ This package lets you easily generate customizable 3D mesh spheres with high-qua
 ## 📦 Installation
 
 ```bash
-npm install celestial-bodies
+npm install astro3d
 # or
-yarn add celestial-bodies
+yarn add astro3d
 ```
 
 ---
@@ -29,7 +29,7 @@ yarn add celestial-bodies
 
 ```js
 import * as THREE from "three";
-import { createMoon } from "celestial-bodies";
+import { createMoon } from "astro3d";
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);

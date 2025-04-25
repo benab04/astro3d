@@ -1,5 +1,5 @@
 {
-  "name": "celestial-bodies",
+  "name": "astro3d",
   "version": "1.0.0",
   "description": "A lightweight Three.js-based package to render customizable 3D textured spheres (like planets or moons) using image maps. Easily integrate and display celestial bodies in your web apps with full support for geometry customization, lighting, and orbit controls. Perfect for educational, scientific, or visually immersive projects.",
   "main": "dist/index.js",
@@ -37,7 +37,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/benab04/celestial-bodies"
+    "url": "https://github.com/benab04/astro3d"
   },
   "files": [
     "dist"
