@@ -1,5 +1,5 @@
 {
-  "name": "my-image-package",
+  "name": "celestial-bodies",
   "version": "1.0.0",
   "description": "An NPM package that provides an image inside a div",
   "main": "dist/index.js",
@@ -9,15 +9,20 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [
-    "image",
-    "component",
-    "div"
+    "celestial",
+    "bodies",
+    "three.js",
+    "three",
+    "moon",
+    "mesh",
+    "scene",
+    "render"
   ],
-  "author": "Your Name",
+  "author": "Ben Abraham Biju",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/my-image-package.git"
+    "url": "https://github.com/benab04/celestial-bodies"
   },
   "files": [
     "dist"

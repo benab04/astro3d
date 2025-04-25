@@ -30,14 +30,14 @@ module.exports = {
                     {
                         loader: 'url-loader',
                         options: {
-                            // limit: 8192, // Convert images < 8kb to base64 strings
-                            name: 'images/[name].[ext]',
-                            limit: 10000000, // Embed images up to 10MB
+                            limit: 20000000, // 20MB limit
                             encoding: 'base64',
-                            esModule: false
-                        }
-                    }
-                ]
+                            esModule: false,
+                            name: 'images/[path][name].[ext]', // <== PRESERVES FOLDER STRUCTURE
+                            context: path.resolve(__dirname, 'src/images'), // <== ROOT FOR RELATIVE PATHS
+                        },
+                    },
+                ],
             },
             {
                 test: /\.css$/,
