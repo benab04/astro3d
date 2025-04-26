@@ -46,6 +46,10 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: ['.js']
+        extensions: ['.js'],
+        alias: {
+            '@objects': path.resolve(__dirname, 'src/objects'),
+            '@images': path.resolve(__dirname, 'src/images'),
+        }
     }
 };
