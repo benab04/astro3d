@@ -1,5 +1,6 @@
 import { createMoon } from './objects/Moon';
 import { createSatellite } from './objects/Satellite'
+import { createEarth } from './objects/Earth';
 /**
  * Creates a moon with default textures
  * @param {Object} options - Options for object creation (see individual functions)
@@ -9,5 +10,6 @@ import { createSatellite } from './objects/Satellite'
 
 export {
     createMoon,
-    createSatellite
+    createSatellite,
+    createEarth
 };
