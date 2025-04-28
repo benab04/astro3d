@@ -165,6 +165,8 @@ Currently, the package includes:
 
 - Moon
 - Satellite with solar panels
+- Earth
+- Jupiter
 
 Contributions to add more celestial bodies (like Earth, Mars, Jupiter...) are very welcome!
 
